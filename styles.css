@@ -1,0 +1,50 @@
+.edit-input {
+  flex-grow: 1;
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.edit-btn,
+.save-btn,
+.cancel-btn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.cancel-btn {
+  background: #6c757d;
+}
+
+.delete-btn {
+  background: #dc3545;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.edit-btn:hover,
+.save-btn:hover {
+  background: #0056b3;
+}
+
+.cancel-btn:hover {
+  background: #5a6268;
+}
+
+.delete-btn:hover {
+  background: #b02a37;
+}
